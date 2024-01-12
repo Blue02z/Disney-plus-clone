@@ -25,6 +25,10 @@ nav{
     margin-bottom: 10px;
 }
 
+.banner{
+    width: 65% ;
+}
+
 .btn-entrar{
     z-index: 2;
     margin-right: 30px;
@@ -50,6 +54,7 @@ nav{
 .section1{
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .infos{
@@ -58,6 +63,7 @@ nav{
     justify-content: center;
     margin-left: 80px;
     z-index: 1;
+    width: 65%;
 }
 
 .infos h1{
@@ -65,6 +71,7 @@ nav{
     color: white;
     font-family: sans-serif;
     margin: 30px 0px 30px 0px
+    
 }
 
 .infos button{
@@ -72,7 +79,7 @@ nav{
     color: white;
     border-radius: 4px;
     display: flex;
-    width: 628px;
+    width: 95%;
     height: 68px;
     align-items: center;
     justify-content: center;
@@ -116,6 +123,7 @@ nav{
     font-size: 40px;
     color: white;
     font-family: sans-serif;
+    text-align: center;
 }
 
 .section2 h3{
@@ -275,6 +283,7 @@ nav{
     font-size: 14px;
     font-family: sans-serif;
     font-weight: 400;
+    text-align: center;
 }
 
 .row{
@@ -377,7 +386,7 @@ nav{
     font-weight: 600;
     color: white;
     margin: 140px 0px 20px 0px;
-
+    text-align: center;
 }
 
 .section4 p{
@@ -386,6 +395,8 @@ nav{
     color: silver;
     font-size: 16px;
     margin-bottom: 10px;
+    text-align: center;
+
 }
 
 .disney-exclusivos{
@@ -393,15 +404,17 @@ nav{
     flex-direction: column;
     align-self: center;
     width: 100%;
-    
+
 }
 
 .disney-exclusivos img{
-    width: 389px;
-    height: 233px;
+    width: 30%;
+    height: 24%;
     border-radius: 6px;
-    
+    margin-bottom: 35px;
 }
+
+
 
 .exclusivos-row{
     width: 100%;
@@ -411,7 +424,109 @@ nav{
     flex-wrap: wrap;
 }
 
-@media (max-width:1110px) {
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section5 h1{
+    font-size: 40px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.accordion-container{
+    width: 100%;
+
+}
+
+.accordion{
+    width: 92%;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
+
+#indicador-aberto{
+    display: none;
+}
+
+
+
+
+.accordion-header{
+    padding: 22px 0px 22px 0px;
+    color: white;
+
+}
+
+.accordion a{
+    color: white;
+    text-decoration: underline;
+}
+
+.accordion-content, .accordion-content2, .accordion-content3, .accordion-content4, .accordion-content5{
+    background-color: #13151d;
+    font-size: 19px;
+    color: silver;
+    display: none;
+    flex-direction: column;
+    font-family: sans-serif;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.accordion-content.open, .accordion-content2.open, .accordion-content3.open, .accordion-content4.open, .accordion-content5.open{
+    display: flex;
+}
+
+.text-content-accordion{
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-content ul, .accordion-content2 ul, .accordion-content3 ul, .accordion-content4 ul, .accordion-content5 ul{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.accordion-content li, .accordion-content2 li{
+    list-style: disc;
+    margin-bottom: 18px;
+}
+
+.accordion-header{
+    background-color: #13151d;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.accordion-header h2{
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+    width: 93%;
+}
+
+@media (max-width:1220px) {
     .container-planos{
         width: 75vw;
     }
@@ -420,5 +535,94 @@ nav{
         width: 20vw;
 
     }
+
+    .disney-exclusivos{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 100%;
+    
+    }
+    
+    .disney-exclusivos img{
+        width: 28%;
+        height: 25%;
+        border-radius: 6px;
+        margin-bottom: 35px;
+    }
+    
+    
+    
+    .exclusivos-row{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+    }
+
+    .section1{
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .infos{
+        z-index: 3;
+    }
+
+    .banner{
+        width: 100%;
+        z-index: 1;
+    }
+
+    .section1 .infos{
+        align-items: center;
+        text-align: center;
+    }
 }
 
+@media (max-width:768px) {
+    .disney-exclusivos img{
+        width: 35%;
+        border-radius: 6px;
+        margin-bottom: 35px;
+        
+    }
+
+    .exclusivos-row{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+    }
+
+    .section3 {
+        flex-direction: column-reverse;
+    }
+
+    .section3 img{
+        width: 90%;
+    }
+
+    .section3 .text-contet{
+        text-align: center;
+        width: 100%;
+    }
+
+    
+
+    .section1 h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .section1 .infos{
+        align-items: center;
+    }
+
+   
+
+
+}

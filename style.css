@@ -1,0 +1,424 @@
+:root{
+    --gray:#1d1f2b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border-style: none;
+
+}
+
+body{
+    background-color: #040714;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.btn-entrar{
+    z-index: 2;
+    margin-right: 30px;
+}
+
+.btn-entrar a{
+    color: white;
+    outline: silver 1px solid;
+    background-color: black;
+    padding: 16px 22px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.btn-entrar a:hover{
+    color: black;
+    background-color: white;
+    transition: ease-out 0.3s;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    z-index: 1;
+}
+
+.infos h1{
+    font-size: 44px;
+    color: white;
+    font-family: sans-serif;
+    margin: 30px 0px 30px 0px
+}
+
+.infos button{
+    background-color: #6421ff;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    width: 628px;
+    height: 68px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.infos button:hover{
+    background-color: #7603fa;
+    cursor: pointer;
+    transition:ease-out 0.3s;
+}
+
+.infos button p{
+    font-family: sans-serif;
+    font-weight: 540;
+    font-size: 18.4px;
+    
+}
+
+.infos a{
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.infos img{
+    width: 190px;
+    height: 98px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 74px;
+}
+
+.section2 h2{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.section2 h3{
+    color: silver;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.plano-disney img{
+    margin-top: 15px;
+    width: 100px;
+    height: 54px;
+}
+
+.plano-star img{
+    margin-top: 15px;
+    width: 130px;
+    height: 53px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.plano-disney{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.plano-disney-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.plano-disney h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 540;
+    font-size: 16px;
+}
+
+.plano-star h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 540;
+    font-size: 16px;
+}
+
+
+
+.plano-star{
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.plano-disney p{
+    font-size: 18px;
+    color: silver;
+    text-align: start;
+    font-family: sans-serif;
+}
+
+.plano-disney-row p{
+    font-size: 18px;
+    color: silver;
+    text-align: start;
+    font-family: sans-serif;
+}
+
+.plano-star-row p{
+    font-size: 18px;
+    color: silver;
+    text-align: start;
+    font-family: sans-serif;
+}
+
+.plano-star-row h4{
+    color: rgb(75, 75, 75);
+    font-size: 56px;
+    border-radius: 6px;
+}
+
+.plano-star-row{
+    background-color: var(--gray);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn{
+    background-color: #0063e5;
+    width: 269px;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #076df3;
+    transition: ease-out 0.3s;
+
+}
+
+.plano-star .btn{
+    background-color: #6421ff;
+}
+
+.plano-star .btn:hover{
+    background-color: #7603fa;
+    transition: ease-out 0.3s;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 40
+}
+
+.plano-star-row .material-symbols-outlined {
+    color: white;
+}
+
+
+.plano-disney-row h4{
+    color: rgb(75, 75, 75);
+    font-size: 56px;
+    border-radius: 6px;
+}
+
+
+
+.btn h3{
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.row:nth-child(1){
+    display: flex;
+    align-items: center;
+    height: 230px;
+    border-bottom: rgb(255, 255, 255) 2px solid;
+}
+
+.row:nth-child(2){
+    height: 150px;
+    border-bottom:0.5px solid rgb(138, 137, 137) ;
+}
+
+.row:nth-child(3), .row:nth-child(4), .row:nth-child(5), .row:nth-child(6), .row:nth-child(7), .row:nth-child(8), .row:nth-child(9){
+    
+    height: 90px;
+    border-bottom:0.5px solid rgb(138, 137, 137) ;
+}
+
+.row-infos{
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.row-infos p{
+    font-size: 18px;
+    color: silver;
+    font-family: sans-serif;
+}
+
+
+.container-planos{
+    width: 1040px;
+    
+    margin-top: 25px;
+}
+
+.section3{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section3 img{
+    width: 45vw;
+}
+
+#informacao-importante{
+    color: silver;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.text-contet{
+    width: 45vw;
+}
+
+.text-contet h1{
+    color: white;
+    font-family: sans-serif;
+    font-family: 600;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.text-contet p{
+    scroll-margin-top: 75px;
+    color: silver;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4 h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    margin: 140px 0px 20px 0px;
+
+}
+
+.section4 p{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: silver;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.disney-exclusivos{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    
+}
+
+.disney-exclusivos img{
+    width: 389px;
+    height: 233px;
+    border-radius: 6px;
+    
+}
+
+.exclusivos-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1110px) {
+    .container-planos{
+        width: 75vw;
+    }
+
+    .btn{
+        width: 20vw;
+
+    }
+}
+

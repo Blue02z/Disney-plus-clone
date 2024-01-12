@@ -602,6 +602,10 @@ nav{
         flex-direction: column-reverse;
     }
 
+    .infos{
+        margin: 0;
+    }
+
     .section3 img{
         width: 90%;
     }

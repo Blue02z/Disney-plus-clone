@@ -3,7 +3,6 @@ function accordionOpen(){
     accordionContent.classList.toggle("open")
     const indicadorAberto = document.getElementById("indicador-aberto")
     const indicadorFechado = document.getElementById("indicador-fechado")
-    console.log("erro")
     if(accordionContent.classList.contains("open")){
         indicadorAberto.style = "display:flex;"
         indicadorFechado.style = "display:none;"
@@ -18,7 +17,6 @@ function accordionOpen2(){
     accordionContent.classList.toggle("open")
     const indicadorAberto = document.getElementById("indicador-aberto2")
     const indicadorFechado = document.getElementById("indicador-fechado2")
-    console.log("erro")
     if(accordionContent.classList.contains("open")){
         indicadorAberto.style = "display:flex;"
         indicadorFechado.style = "display:none;"
@@ -34,7 +32,6 @@ function accordionOpen3(){
     accordionContent.classList.toggle("open")
     const indicadorAberto = document.getElementById("indicador-aberto3")
     const indicadorFechado = document.getElementById("indicador-fechado3")
-    console.log("erro")
     if(accordionContent.classList.contains("open")){
         indicadorAberto.style = "display:flex;"
         indicadorFechado.style = "display:none;"
@@ -49,7 +46,6 @@ function accordionOpen4(){
     accordionContent.classList.toggle("open")
     const indicadorAberto = document.getElementById("indicador-aberto4")
     const indicadorFechado = document.getElementById("indicador-fechado4")
-    console.log("erro")
     if(accordionContent.classList.contains("open")){
         indicadorAberto.style = "display:flex;"
         indicadorFechado.style = "display:none;"
@@ -65,7 +61,6 @@ function accordionOpen5(){
     accordionContent.classList.toggle("open")
     const indicadorAberto = document.getElementById("indicador-aberto5")
     const indicadorFechado = document.getElementById("indicador-fechado5")
-    console.log("erro")
     if(accordionContent.classList.contains("open")){
         indicadorAberto.style = "display:flex;"
         indicadorFechado.style = "display:none;"
@@ -74,3 +69,7 @@ function accordionOpen5(){
         indicadorFechado.style = "display:flex;"
     }
 }
+
+
+
+
